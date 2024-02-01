@@ -1,12 +1,19 @@
-import MyComponent from './PokeComponent'
-import './App.css'
+import TypesExample from "./NavbarComponent";
+import MyComponent from "./PokeComponent";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
-  return(
+  return (
     <>
-    <MyComponent />
+      <nav>
+        <TypesExample />
+      </nav>
+      <main>
+        <MyComponent />
+      </main>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
